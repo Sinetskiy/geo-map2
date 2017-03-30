@@ -1,0 +1,188 @@
+﻿@font-face {
+    font-family: 'FiraSans-Bold';
+    src: url('../fonts/FiraSans/FiraSans-Bold.ttf');
+    src: url('../fonts/FiraSans/FiraSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FiraSans-BoldItalic';
+    src: url('../fonts/FiraSans/FiraSans-BoldItalic.ttf');
+    src: url('../fonts/FiraSans/FiraSans-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FiraSans-Italic';
+    src: url('../fonts/FiraSans/FiraSans-Italic.ttf');
+    src: url('../fonts/FiraSans/FiraSans-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FiraSans-Light';
+    src: url('../fonts/FiraSans/FiraSans-Light.ttf');
+    src: url('../fonts/FiraSans/FiraSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FiraSans-LightItalic';
+    src: url('../fonts/FiraSans/FiraSans-LightItalic.ttf');
+    src: url('../fonts/FiraSans/FiraSans-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FiraSans-Medium';
+    src: url('../fonts/FiraSans/FiraSans-Medium.ttf');
+    src: url('../fonts/FiraSans/FiraSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FiraSans-MediumItalic';
+    src: url('../fonts/FiraSans/FiraSans-MediumItalic.ttf');
+    src: url('../fonts/FiraSans/FiraSans-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FiraSans-Regular';
+    src: url('../fonts/FiraSans/FiraSans-Regular.ttf');
+    src: url('../fonts/FiraSans/FiraSans-Regular.ttf') format('truetype');
+}
+
+html,
+body,
+p,
+input,
+form,
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+#popup {
+    position: absolute;
+}
+
+.wrapper-z {
+    display: block;
+    max-width: 100%;
+    height: 768px;
+    background: url("../bck1.jpg")no-repeat;
+    background-size: cover;
+}
+
+.form-feedback {
+    padding: 10px;
+}
+
+.name-us {
+    font-family: firasans-medium, sans-serif;
+    color: #4f4f4f;
+    display: inline-block;
+}
+
+.place-z {
+    display: inline-block;
+}
+
+#popup {
+    display: none;
+}
+
+.z-form {
+    display: block;
+    width: 379px;
+    height: 527px;
+    background: #fff;
+    border-radius: 15px;
+    position: relative;
+}
+
+.form-head {
+    height: 44px;
+    background: #ff8663;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.form-head i,
+.form-head p,
+.form-head a {
+    display: inline-block;
+    line-height: 46px;
+    color: #fff;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.form-head p,
+.form-head a {
+    font-family: firasans-light, sans-serif;
+}
+
+.form-head a {
+    font-family: arial, sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    padding-left: 100px;
+}
+
+.form-feedback p {
+    font-family: firasans-regular, sans-serif;
+    padding-top: 5px;
+}
+
+.form-inputs {
+    width: 358px;
+    margin: 20px auto;
+    border-top: 1px solid #c4c4c4;
+}
+
+.form-inputs h3 {
+    font-family: firasans-medium, sans-serif;
+    color: #ff8663;
+    text-transform: uppercase;
+    padding: 8px 0 0 0;
+}
+
+.form-inputs input {
+    display: block;
+    height: 32px;
+    width: 96%;
+    border-radius: 10px;
+    border: 1px solid #c4c4c4;
+    margin: 5px 0 8px 0px;
+    color: #727272;
+    padding-left: 10px;
+}
+
+#feedback-textarea {
+    display: block;
+    width: 86%;
+    height: 108px;
+    margin: 10px auto;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    padding: 20px;
+    resize: none;
+}
+
+.form-inputs a {
+    display: block;
+    width: 87px;
+    height: 30px;
+    background: #ff8663;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    font-family: firasans-light, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    float: right;
+    margin-right: 5px;
+}
+
+.feedback-wrap {
+    width: 350px;
+    margin: 0 auto;
+    overflow-y: scroll;
+    height: 120px;
+}
